@@ -6,3 +6,7 @@
 body {
   background: rgb(194, 194, 194);
 }
+
+ul.slides li img {
+  filter: brightness(40%);
+}
