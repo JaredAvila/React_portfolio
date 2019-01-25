@@ -6,7 +6,7 @@ class serviceBoxes extends Component {
       <div className="servicBoxes">
         <div className="row">
           <div className="col m12 l6">
-            <div className="card">
+            <div className="card grey darken-3">
               <div className="card-content">
                 <span className="card-title center">Analytics</span>
                 <p className="centered">
@@ -21,7 +21,7 @@ class serviceBoxes extends Component {
             </div>
           </div>
           <div className="col m12 l6">
-            <div className="card">
+            <div className="card grey darken-3">
               <div className="card-content">
                 <span className="card-title center">Get Better Results</span>
                 <p className="centered">
@@ -38,7 +38,7 @@ class serviceBoxes extends Component {
         </div>
         <div className="row">
           <div className="col m12 l6">
-            <div className="card">
+            <div className="card grey darken-3">
               <div className="card-content">
                 <span className="card-title center">
                   Search Engine Optimization
@@ -55,7 +55,7 @@ class serviceBoxes extends Component {
             </div>
           </div>
           <div className="col m12 l6">
-            <div className="card">
+            <div className="card grey darken-3">
               <div className="card-content">
                 <span className="card-title center">Hosting Options</span>
                 <p className="centered">

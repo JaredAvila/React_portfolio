@@ -4,8 +4,8 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        <form className="contactForm">
-          <h4 className="center orange-text text-accent-3 quoteText">
+        <form className="contactForm grey darken-3">
+          <h4 className="center pink-text text-accent-2 quoteText">
             Get a free quote for your project today!
           </h4>
           <div class="input-field col s12">
