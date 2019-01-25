@@ -10,3 +10,20 @@ body {
 ul.slides li img {
   filter: brightness(40%);
 }
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  background: rgb(75, 75, 75);
+  padding: 30px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.quoteText {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgb(75, 75, 75);
+  margin: auto;
+  margin-bottom: 10px;
+}

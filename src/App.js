@@ -40,7 +40,7 @@ class App extends Component {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/about" className="btn">
+              <Link to="/about" className="btn waves-effect waves-light">
                 About
               </Link>
             </NavItem>

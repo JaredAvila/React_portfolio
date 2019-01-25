@@ -4,6 +4,8 @@ import Background_1 from "../static/coding.jpeg";
 import Background_2 from "../static/foodie.jpeg";
 import Background_3 from "../static/business.jpeg";
 
+import Contact from "./Contact";
+
 class Home extends Component {
   render() {
     return (
@@ -39,7 +41,7 @@ class Home extends Component {
                 </h5>
                 <a
                   href="/projects"
-                  class="btn btn-large deep-purple waves-effect waves-red"
+                  class="btn btn-large purple accent-3 waves-effect waves-red"
                 >
                   More Reviews
                 </a>
@@ -57,7 +59,7 @@ class Home extends Component {
                 </h5>
                 <a
                   href="/services"
-                  class="btn btn-large deep-orange waves-effect waves-light"
+                  class="btn btn-large light-blue lighten-2 waves-effect waves-light"
                 >
                   Learn More
                 </a>
@@ -66,10 +68,19 @@ class Home extends Component {
           </ul>
         </section>
         <section className="section">
-          <i class="fas fa-chart-pie fa-4x" />
-          <i class="fas fa-chart-line fa-4x" />
-          <i class="fas fa-search-dollar fa-4x" />
-          <i class="fas fa-sitemap fa-4x" />
+          <div className="container">
+            <div className="row">
+              <div className="col s12 m8">
+                <Contact />
+              </div>
+              <div className="col s12 m4">
+                <i class="fas fa-chart-pie fa-4x" />
+                <i class="fas fa-chart-line fa-4x" />
+                <i class="fas fa-search-dollar fa-4x" />
+                <i class="fas fa-sitemap fa-4x" />
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     );
