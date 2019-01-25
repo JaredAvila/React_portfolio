@@ -5,6 +5,7 @@ import Background_2 from "../static/foodie.jpeg";
 import Background_3 from "../static/business.jpeg";
 
 import Contact from "./Contact";
+import ServiceBoxes from "./serviceBoxes";
 
 class Home extends Component {
   render() {
@@ -67,20 +68,17 @@ class Home extends Component {
             </li>
           </ul>
         </section>
-        <section className="section">
-          <div className="container">
-            <div className="row">
-              <div className="col s12 m8">
-                <Contact />
-              </div>
-              <div className="col s12 m4">
-                <i class="fas fa-chart-pie fa-4x" />
-                <i class="fas fa-chart-line fa-4x" />
-                <i class="fas fa-search-dollar fa-4x" />
-                <i class="fas fa-sitemap fa-4x" />
-              </div>
+        <section className="section section-contact">
+          {/* <div className="container"> */}
+          <div className="row">
+            <div className="col s12 m6">
+              <Contact />
+            </div>
+            <div className="col s12 m6">
+              <ServiceBoxes />
             </div>
           </div>
+          {/* </div> */}
         </section>
       </div>
     );

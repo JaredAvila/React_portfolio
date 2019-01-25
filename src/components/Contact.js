@@ -4,15 +4,10 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        {/* <h4 className="center purple-text text-accent-3 quoteText">
-          Get a free quote for your project today!
-        </h4> */}
         <form className="contactForm">
-          <h4 className="center purple-text text-accent-3 quoteText">
+          <h4 className="center orange-text text-accent-3 quoteText">
             Get a free quote for your project today!
           </h4>
-          {/* <label htmlFor="name">Name:</label>
-          <input type="text" name="name" placeholder="John Doe" required /> */}
           <div class="input-field col s12">
             <i class="material-icons prefix">account_circle</i>
             <input id="icon_prefix" type="text" class="validate" required />

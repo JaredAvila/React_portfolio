@@ -27,3 +27,12 @@ ul.slides li img {
   margin: auto;
   margin-bottom: 10px;
 }
+
+.centered {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.section-contact {
+  margin: 0 30px;
+}
