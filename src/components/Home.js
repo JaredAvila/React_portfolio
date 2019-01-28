@@ -6,6 +6,7 @@ import Background_3 from "../static/business.jpeg";
 
 import Contact from "./Contact";
 import ServiceBoxes from "./serviceBoxes";
+import Testimonial from "./Testimonial";
 
 class Home extends Component {
   render() {
@@ -67,6 +68,9 @@ class Home extends Component {
               </div>
             </li>
           </ul>
+        </section>
+        <section className="section section-testimonial">
+          <Testimonial />
         </section>
         <section className="section section-contact">
           <div className="row">

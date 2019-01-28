@@ -5,11 +5,41 @@
 
 body {
   background-image: linear-gradient(to bottom right, black, rgb(36, 36, 36), rgb(114, 32, 70), rgb(194, 18, 100), rgba(214, 214, 24, 0.671), rgba(134, 134, 0, 0.671));
+  background-attachment: fixed;
 }
+
+/* Slides */
 
 ul.slides li img {
   filter: brightness(40%);
 }
+
+/* Testimonial Section */
+
+.section-testimonial {
+  background: rgb(185, 185, 185);
+  padding: 50px;
+}
+
+.testimonialContainer {
+  margin-top: 50px;
+}
+
+.testimonialCard {
+  padding: 20px;
+  margin: 40px 0;
+  background: rgb(63, 63, 63);
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px rgb(78, 78, 78);
+}
+
+.imgTestimonial img {
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgb(36, 36, 36);
+}
+
+/* Contact Section */
 
 .contactForm {
   display: flex;
@@ -39,8 +69,14 @@ ul.slides li img {
   margin: 0 30px;
 }
 
+/* Footer */
+
 .socialLinks i {
   margin: 10px;
+}
+
+footer {
+  padding-top: 50px;
 }
 
 .footerText {
