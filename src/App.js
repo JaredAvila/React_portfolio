@@ -12,6 +12,7 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Home from "./components/Home";
 import NavItem from "react-materialize/lib/NavItem";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -49,6 +50,7 @@ class App extends Component {
           <Route exact={true} path="/projects" component={Projects} />
           <Route exact={true} path="/services" component={Services} />
           <Route exact={true} path="/about" component={About} />
+          <Footer />
         </div>
       </Router>
     );
