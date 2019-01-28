@@ -11,7 +11,7 @@ body {
 /* Slider */
 
 .sliderContent {
-  margin-bottom: 150px;
+  margin-bottom: 300px;
   padding-bottom: 100px;
   background: rgb(68, 68, 68);
 }
@@ -117,4 +117,41 @@ footer {
 
 .footerText {
   padding: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Slider */
+  .sliderContent {
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+  }
+  /* Testimonial */
+  .section-testimonial {
+    padding: 10px;
+  }
+  .testimonialContainer {
+    margin-top: 20px;
+  }
+  .testimonialCard {
+    padding: 20px 10px;
+    margin: 20px 0;
+    width: 100%;
+  }
+  .testiTestimonial {
+    margin-bottom: 10px;
+  }
+  /* Follow */
+  #follow {
+    margin: 100px 0;
+    padding: 10px;
+  }
+  /* Contact */
+  .section-contact {
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .contactForm {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
 }
