@@ -6,8 +6,9 @@ import SMP from "../static/selfmadeprogramer.png";
 class Testimonial extends Component {
   render() {
     return (
-      <div className="testimonialContainer">
-        <h3>What are others saying about Avila Media Group</h3>
+      <div id="testimonial" className="testimonialContainer">
+        <h3 className="center">Professional Reviews</h3>
+        <hr />
         <hr />
         <br />
         <div className="row testimonialCard">
@@ -21,7 +22,7 @@ class Testimonial extends Component {
               <p className="center">view website</p>
             </a>
           </div>
-          <div className="col s12 m7">
+          <div className="col s12 m7 testiTestimonial">
             <h4>
               <a
                 rel="noopener noreferrer"
@@ -38,11 +39,11 @@ class Testimonial extends Component {
               libero obcaecati assumenda aliquam aperiam.
             </p>
             <br />
-            <p>-Richard, business owner of Second Winds Music</p>
+            <p>-Richard, business owner - Second Winds Music</p>
           </div>
         </div>
-        <div className="row testimonialCard">
-          <div className="col s12 m7">
+        <div className="row testimonialCard testimonial-right">
+          <div className="col s12 m7 testiTestimonial">
             <h4>
               <a
                 rel="noopener noreferrer"
@@ -83,7 +84,7 @@ class Testimonial extends Component {
               <p className="center">view website</p>
             </a>
           </div>
-          <div className="col s12 m7">
+          <div className="col s12 m7 testiTestimonial">
             <h4>
               <a
                 rel="noopener noreferrer"
@@ -101,6 +102,14 @@ class Testimonial extends Component {
             </p>
             <br />
             <p>-Richard, business owner of Second Winds Music</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col s12 center">
+            <h5>View more work by Avila Media Group</h5>
+            <a href="/projects" className="btn blue lighten-1">
+              Projects
+            </a>
           </div>
         </div>
       </div>

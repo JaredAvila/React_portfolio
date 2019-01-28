@@ -17,7 +17,7 @@ ul.slides li img {
 /* Testimonial Section */
 
 .section-testimonial {
-  background: rgb(185, 185, 185);
+  background: rgb(238, 238, 238);
   padding: 50px;
 }
 
@@ -28,15 +28,30 @@ ul.slides li img {
 .testimonialCard {
   padding: 20px;
   margin: 40px 0;
-  background: rgb(63, 63, 63);
+  background: rgb(209, 209, 209);
   border-radius: 6px;
   box-shadow: 2px 2px 6px rgb(78, 78, 78);
+  width: 70%;
+}
+
+.testimonial-right {
+  margin-left: auto;
 }
 
 .imgTestimonial img {
   height: 200px;
   border-radius: 8px;
   box-shadow: 2px 2px 6px rgb(36, 36, 36);
+}
+
+.testiTestimonial {
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.testiTestimonial p {
+  padding: 10px 0;
+  color: rgb(87, 87, 87);
 }
 
 /* Contact Section */
@@ -67,6 +82,11 @@ ul.slides li img {
 
 .section-contact {
   margin: 0 30px;
+}
+
+.fitContent {
+  width: fit-content;
+  margin: auto;
 }
 
 /* Footer */

@@ -42,7 +42,7 @@ class Home extends Component {
                   <br /> -Person McPeoplson
                 </h5>
                 <a
-                  href="/projects"
+                  href="#testimonial"
                   class="btn btn-large purple accent-3 waves-effect waves-red"
                 >
                   More Reviews

@@ -33,7 +33,7 @@ class Contact extends Component {
             <textarea id="icon_prefix" class="materialize-textarea" />
             <label for="icon_prefix">What services can we help you with?</label>
           </div>
-          <button type="submit" className="btn bttn teal">
+          <button type="submit" className="btn bttn teal fitContent">
             Submit
           </button>
         </form>
